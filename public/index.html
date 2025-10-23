@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Zenith.AI — Sosmed captions</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main class="container">
+<header>
+<h1>Zenith.AI | Auto Caption</h1>
+<p>Buat caption Sosmed yang menyentuh hati — cepat & rapi.</p>
+</header>
+
+
+<section class="controls">
+<label>Topik / Kata kunci
+<input id="prompt" placeholder="mis. putus cinta, rindu, hujan malam" />
+</label>
+
+
+<label>Nada
+<select id="tone">
+<option value="galau">Galau</option>
+<option value="melankolis">Melankolis</option>
+<option value="puitis">Puitis</option>
+<option value="sarkastik">Sarkastik</option>
+</select>
+</label>
+
+
+<label>Panjang
+<select id="length">
+<option value="short">Pendek (1-2 baris)</option>
+<option value="medium">Sedang (2-4 baris)</option>
+<option value="long">Panjang (lebih detail)</option>
+</select>
+</label>
+
+
+<div class="actions">
+<button id="generate">Generate</button>
+<button id="save" disabled>Save ke Favorites</button>
+</div>
+</section>
+
+
+<section class="output">
+<h2>Hasil</h2>
+<pre id="result" class="result">Tekan Generate untuk membuat caption...</pre>
+<div class="output-actions">
+<button id="copy">Copy</button>
+<button id="download">Download .txt</button>
+</div>
+</section>
+
+<div id="tombol-container">
+  <h6>Sawer Atmin Disini!</h6>
+  <a href="https://saweria.co/Fizzx" class="saweria-button" target="_blank">
+    <span>💰</span> Dukung Saya di Saweria
+  </a>
+</div>
+
+<footer>
+<p style="text-align: center;">2025 © Zenith.AI</p>
+</footer>
+</main>
+
+
+<script src="./app.js"></script>
+</body>
+</html>
