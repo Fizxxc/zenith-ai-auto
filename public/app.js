@@ -58,5 +58,6 @@ dlBtn.onclick = () => {
 };
 
 saveBtn.onclick = () => {
-  alert('💾 Fitur simpan ke Firebase coming soon!');
+  alert('Hehehe, Fiturnya Masih Maintance Kak!');
 };
+
